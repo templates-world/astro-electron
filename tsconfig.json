@@ -1,0 +1,9 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "paths": {
+      "$shared/*": ["./src/shared/*"]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "asar": false,
+  "directories": { "output": "out" },
+  "files": ["dist/index.js", { "from": "dist", "to": "" }]
+}
