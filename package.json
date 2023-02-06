@@ -8,7 +8,8 @@
     "start": "electron .",
     "dev": "tsx ./scripts/dev.ts",
     "build": "tsx ./scripts/build.ts",
-    "format": "prettier -w --plugin-search-dir=. ./src/**"
+    "format": "prettier -w --plugin-search-dir=. ./src/**",
+    "electron:build": "electron-builder"
   },
   "dependencies": {
     "electron-serve": "^1.1.0"
