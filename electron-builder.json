@@ -1,5 +1,8 @@
 {
   "asar": false,
   "directories": { "output": "out" },
-  "files": ["dist/index.js", { "from": "dist", "to": "" }]
+  "files": ["dist/index.js", { "from": "dist", "to": "" }],
+  "linux": {
+    "target": "deb"
+  }
 }

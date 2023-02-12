@@ -1,8 +1,9 @@
 {
-  "name": "@example/basic",
+  "name": "astro-electron",
   "description": "Template of Astro and Electron",
   "main": "./dist/index.js",
   "version": "0.0.1",
+  "author": "Olyno <contact@olyno.dev>",
   "private": true,
   "scripts": {
     "start": "electron .",
