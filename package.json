@@ -23,7 +23,7 @@
     "del": "^7.0.0",
     "electron": "^22.0.0",
     "electron-builder": "^23.6.0",
-    "esbuild": "^0.15.16",
+    "esbuild": "^0.17.7",
     "prettier": "^2.8.0",
     "prettier-plugin-astro": "^0.7.0",
     "tsx": "^3.12.1",

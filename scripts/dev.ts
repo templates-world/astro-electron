@@ -4,15 +4,13 @@ import esbuild from 'esbuild';
 import waitOn from 'wait-on';
 
 async function buildProcess() {
-  return esbuild
-    .build({
-      entryPoints: ['src/process/index.ts'],
-      watch: true,
-      platform: 'node',
-      outdir: 'dist',
-      format: 'cjs',
-    })
-    .catch(() => process.exit(1));
+  const context = await esbuild.context({
+    entryPoints: ['src/process/index.ts'],
+    platform: 'node',
+    outdir: 'dist',
+    format: 'cjs',
+  });
+  return context.watch().catch(() => process.exit(1));
 }
 
 async function main() {
